@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/69164d68-a64a-4b5e-a690-2ba2182bc450
   <table>
     <tr>
       <td align="center">
-        <a href="https://nextjs.org/docs>
+        <a href="https://nextjs.org/docs">
           <img src="https://github.com/user-attachments/assets/b0d713e0-747d-4a19-9d6a-b408674c336e" width="160" height="80" alt="Clerk logo"><br/>
           Next JS
         </a>
