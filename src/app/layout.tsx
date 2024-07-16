@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 
-import Header from "@/src/components/header";
-import Footer from "@/src/components/footer";
-import { ThemeProvider } from "@/src/components/theme-provider";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/theme-provider";
 
 import "./globals.css";
 

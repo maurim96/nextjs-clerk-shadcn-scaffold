@@ -2,15 +2,13 @@
 import { ApolloProvider } from "@apollo/client";
 import { useAuth } from "@clerk/nextjs";
 import { useCallback, useEffect, useMemo } from "react";
-import { getApolloClient } from "@/src/app/apollo-client";
-import { useValidateUserAndUpdateDeviceTokenMutation } from "@/src/graphql-types";
-import { useRouter } from "next/navigation";
+import { getApolloClient } from "@/app/apollo-client";
+import { useValidateUserAndUpdateDeviceTokenMutation } from "@/graphql-types";
 
 const InitialLayout = ({ children }: { children: React.ReactNode }) => {
   const { isLoaded, isSignedIn } = useAuth();
   const [validateUserAndUpdateDeviceToken] =
     useValidateUserAndUpdateDeviceTokenMutation();
-  const router = useRouter();
 
   const validateUser = useCallback(async () => {
     try {
@@ -22,9 +20,8 @@ const InitialLayout = ({ children }: { children: React.ReactNode }) => {
       //   type: "error",
       // });
       console.error("Error: ", error);
-      router.back();
     }
-  }, [router, validateUserAndUpdateDeviceToken]);
+  }, [validateUserAndUpdateDeviceToken]);
 
   useEffect(() => {
     if (!isLoaded) return;
@@ -32,9 +29,8 @@ const InitialLayout = ({ children }: { children: React.ReactNode }) => {
     if (isSignedIn) {
       void validateUser();
     } else if (!isSignedIn) {
-      router.back();
     }
-  }, [isLoaded, isSignedIn, router, validateUser]);
+  }, [isLoaded, isSignedIn, validateUser]);
 
   return <>{children}</>;
 };

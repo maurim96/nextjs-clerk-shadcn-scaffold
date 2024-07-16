@@ -8,7 +8,7 @@ import { setContext } from "@apollo/client/link/context";
 import type { GetToken } from "@clerk/types";
 
 const httpLink = new HttpLink({
-  uri: `${process.env.NEXT_PUBLIC_API_URL}/graphql`,
+  uri: `${process.env.NEXT_PUBLIC_NEST_API_URL}/graphql`,
 });
 
 const createAuthLink = (getToken: GetToken) =>
