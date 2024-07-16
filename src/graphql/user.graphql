@@ -1,0 +1,6 @@
+mutation validateUserAndUpdateDeviceToken($deviceToken: String!) {
+  validateUserAndUpdateDeviceToken(deviceToken: $deviceToken) {
+    id
+    email
+  }
+}
