@@ -6,6 +6,7 @@ Welcome to the official Next JS Scaffold repository. This project is designed to
 ## Purpose and Benefits
 
 This scaffold aims to reduce the initial setup time and complexity by providing a ready-to-use Next JS application structure. It leverages the power of Next JS, GraphQL, Clerk for authentication,  and more, enabling developers to focus on building unique features right from the start.
+https://github.com/user-attachments/assets/69164d68-a64a-4b5e-a690-2ba2182bc450
 
 ## Powered by
 
@@ -13,8 +14,8 @@ This scaffold aims to reduce the initial setup time and complexity by providing 
   <table>
     <tr>
       <td align="center">
-        <a href="https://reactnative.dev/docs/getting-started">
-          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/4d0785be-9a90-40af-9950-5bb4012128a4" width="100" height="80" alt="Next JS logo"><br/>
+        <a href="https://nextjs.org/docs>
+          <img src="https://github.com/user-attachments/assets/b0d713e0-747d-4a19-9d6a-b408674c336e" width="160" height="80" alt="Clerk logo"><br/>
           Next JS
         </a>
       </td>
@@ -25,8 +26,8 @@ This scaffold aims to reduce the initial setup time and complexity by providing 
         </a>
       </td>
       <td align="center">
-        <a href="https://clerk.com/docs">
-          <img src="https://github.com/maurim96/rn-expo-scaffold/assets/22548752/f2f691e0-c06f-45e8-96c8-580fa83a986e" width="160" height="80" alt="Clerk logo"><br/>
+        <a href="https://ui.shadcn.com/">
+          <img src="https://github.com/user-attachments/assets/69164d68-a64a-4b5e-a690-2ba2182bc450" width="160" height="80" alt="Shadcn logo"><br/>
           Shadcn
         </a>
       </td>
@@ -83,8 +84,8 @@ This scaffold aims to reduce the initial setup time and complexity by providing 
 Clone the repository and install dependencies:
 
 ```bash
-git clone git@github.com:maurim96/rn-expo-scaffold.git
-cd rn-expo-scaffold
+git clone git@github.com:maurim96/nextjs-clerk-shadcn-scaffold.git
+cd nextjs-clerk-shadcn-scaffold
 npm install
 ```
 
