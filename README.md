@@ -6,7 +6,6 @@ Welcome to the official Next JS Scaffold repository. This project is designed to
 ## Purpose and Benefits
 
 This scaffold aims to reduce the initial setup time and complexity by providing a ready-to-use Next JS application structure. It leverages the power of Next JS, GraphQL, Clerk for authentication,  and more, enabling developers to focus on building unique features right from the start.
-https://github.com/user-attachments/assets/69164d68-a64a-4b5e-a690-2ba2182bc450
 
 ## Powered by
 
